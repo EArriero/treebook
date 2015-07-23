@@ -17,6 +17,9 @@ gem 'coffee-rails', '~> 4.1.0'
 # Comment. Gema para generar un sistema de autenticación.
 gem 'devise'
 
+# Comment. Gema para ayudar a agregar formas a Rails de forma más sencilla.
+gem 'simple_form'
+
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
