@@ -8,3 +8,8 @@ class ActiveSupport::TestCase
 
   # Add more helper methods to be used by all tests here...
 end
+
+# Comment. Esta linea de codigo es sugirida por la gema devise, con el fin de correr los integration test de forma exitosa.
+class ActionController::TestCase
+  include Devise::TestHelpers
+end
