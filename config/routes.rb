@@ -1,12 +1,12 @@
 Rails.application.routes.draw do
-  # devise_for :users
+  devise_for :users
   resources :statuses
 
   #Comment. Creamos la raiz de la app. En este caso tomamos el controlador 'statuses', seguido por el metodo 'index'.
   root to: 'statuses#index'
 
   #Comment. Agregamos esta linea de codigo para poder agregar <%= @status.user.first_name %> en /views/statuses/new.html.erb.
-  devise_for :users, :controllers => {:registrations => "users/registrations"}
+  #devise_for :users, :controllers => {:registrations => "users/registrations"}
 
 
   # The priority is based upon order of creation: first created -> highest priority.
