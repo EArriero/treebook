@@ -23,4 +23,10 @@ class CustomRoutesTest < ActionDispatch::IntegrationTest
   	get '/register'
   	assert_response :success
   end
+
+  #Comment. Escribimos este test con el fin de evaluar que podemos llegar a la ruta del perfil del usuario.
+  test "that a profile page works" do
+    get '/jasonseifer'
+    assert_response :success
+  end
 end

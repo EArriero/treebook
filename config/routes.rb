@@ -15,6 +15,9 @@ Rails.application.routes.draw do
   #Comment. Creamos la raiz de la app. En este caso tomamos el controlador 'statuses', seguido por el metodo 'index'.
   root to: 'statuses#index'
 
+  #Comment. Creamos esta ruta con el fin de que el usuario pueda acceder a su perfil.
+  get '/:id', to: 'profiles#show'
+
   #Comment. Agregamos esta linea de codigo para poder agregar <%= @status.user.first_name %> en /views/statuses/new.html.erb.
   #devise_for :users, :controllers => {:registrations => "users/registrations"}
 
