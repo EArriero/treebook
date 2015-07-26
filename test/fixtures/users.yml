@@ -1,5 +1,11 @@
-alejo:
-  first_name: "Alejo"
-  last_name: "Hernandez"
-  email: "alejo@gmail.com"  
-  profile_name: "alejoh001"
+jason:
+  first_name: "Jason"
+  last_name: "Seifer"
+  email: "jason@teamtreehouse.com"
+  profile_name: "jasonseifer"
+
+jim:
+  first_name: "Jim"
+  last_name: "Hoskins"
+  email: "jim@teamtreehouse.com"
+  profile_name: "jimhoskins"
